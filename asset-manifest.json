@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/weather.today.v2/static/css/main.072b389f.css",
+    "main.js": "/weather.today.v2/static/js/main.ac791f15.js",
+    "static/media/atmosphere.webp": "/weather.today.v2/static/media/atmosphere.c728b45cf813dd0259b5.webp",
+    "static/media/snow.webp": "/weather.today.v2/static/media/snow.cf9b9d36ef1f17c62d2b.webp",
+    "static/media/rain.webp": "/weather.today.v2/static/media/rain.44e404dafc667a09ab09.webp",
+    "static/media/clear.webp": "/weather.today.v2/static/media/clear.c784752b36a5a4fd498e.webp",
+    "static/media/cloudy.webp": "/weather.today.v2/static/media/cloudy.90b9f4d0357aa9e9b3e6.webp",
+    "static/media/search_black.svg": "/weather.today.v2/static/media/search_black.f823d4569e445bfca793f6da75d13f8f.svg",
+    "static/media/search_white.svg": "/weather.today.v2/static/media/search_white.89ae1a6cc23f353f86658114a7c4c7f6.svg",
+    "index.html": "/weather.today.v2/index.html",
+    "main.072b389f.css.map": "/weather.today.v2/static/css/main.072b389f.css.map",
+    "main.ac791f15.js.map": "/weather.today.v2/static/js/main.ac791f15.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.072b389f.css",
+    "static/js/main.ac791f15.js"
+  ]
+}
