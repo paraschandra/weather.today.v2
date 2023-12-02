@@ -45,6 +45,7 @@ function App() {
   }, [])
 
   const handleSearch = (e) => {
+    e.preventDefault()
     const input = inputRef.current.value
     if (input === '') return
     getWeather(input)
@@ -57,11 +58,11 @@ function App() {
       <Weather main = {main} weather = {weather} city = {city} time = {timezone}/>
 
       <div className="panel">
-        <form id="inputLocation" action='#'>
+        <form id="inputLocation" onSubmit={handleSearch}>
           <input type="text" ref = {inputRef} className="search" placeholder="Search..."/>
           <button type="submit" className="submit" 
           onMouseEnter={() => setBlack(true)} 
-          onMouseLeave={() => setBlack(false)} onClick = {handleSearch}>
+          onMouseLeave={() => setBlack(false)}>
             <img src={black ? searchBlack : searchWhite} alt="search" id="submit" />
           </button>
         </form>
